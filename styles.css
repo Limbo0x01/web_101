@@ -1,0 +1,57 @@
+body {
+    background: url('gaming-background.jpg') no-repeat center center fixed; /* Adjust the path to your actual image file */
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent black background to make text more readable */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.7); /* Green glow for a gaming effect */
+}
+
+h1 {
+    text-align: center;
+    color: #00ff00; /* Neon green color for a gaming look */
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+input[type="password"], input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    width: auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00ff00;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px; /* For the Show button */
+}
+
+button:hover {
+    background-color: #00cc00;
+}
+
+#errorMsg {
+    color: #ff3333;
+    text-align: center;
+}
+
